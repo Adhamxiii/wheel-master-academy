@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const ContactPage = () => {
   return (
     <>
-      <Wrapper className="left-28 flex flex-col mt-8 items-center justify-center lg:flex-row lg:pt-0">
+      <Wrapper className="left-28 flex flex-col mt-20 items-center justify-center lg:flex-row lg:pt-0">
         <motion.div
           variants={smoothIn({ direction: "right", delay: 0.6 })}
           initial="hidden"
